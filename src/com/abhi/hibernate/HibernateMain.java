@@ -11,6 +11,7 @@ import org.hibernate.service.spi.SessionFactoryServiceRegistryBuilder;
 public class HibernateMain {
 
 public static void main(String[]args) {
+//Configuraation of hibernate properties which were defined in XML file. 
 	Configuration configuration = new Configuration();
 	configuration.configure();
 	configuration.addAnnotatedClass(User.class);
